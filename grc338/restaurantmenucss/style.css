@@ -1,0 +1,59 @@
+/* CSS DOCUMENT */
+
+body{
+  background-color: rgb(156,175,136);
+}
+
+h1{
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+}
+
+h2{
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: lighter;
+  color: black;
+}
+
+h3{
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  background-color: rgb(255,255,240);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h4{
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  font-family: mr-eaves-modern, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ingredients{
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 0;
+}
+
+.price{
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 0;
+  padding-bottom: 1em;
+}
