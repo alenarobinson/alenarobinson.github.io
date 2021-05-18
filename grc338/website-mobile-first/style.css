@@ -1,0 +1,64 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%;
+}
+
+html{
+  background: #f7ee6ba;
+}
+
+header{
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 1em;
+  font-family: sketchnote-square, sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+nav ul li a {
+  color: #da937e;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #f5c3a4;
+}
+
+ul li{
+  list-style: none;
+}
+
+h4{
+  font-family: sketchnote-square, sans-serif;
+  color: #da937e;
+  font-size: 4em;
+}
+
+h2{
+  font-family: sketchnote-square, sans-serif;
+  color: #da937e;
+}
+
+h3{
+  color: #f5c3a4;
+  font-family: sketchnote-text, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p{
+  font-family: sans-serif;
+}
