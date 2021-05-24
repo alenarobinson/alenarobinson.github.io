@@ -1,0 +1,91 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%;
+}
+
+div.logo {
+  width: 8em;
+}
+
+html{
+  background: #f7ee6ba;
+}
+
+figure {
+  margin: 0;
+}
+
+header{
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 1em;
+  font-family: sketchnote-square, sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+nav ul li a {
+  color: #da937e;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #f5c3a4;
+}
+
+ul li{
+  list-style: none;
+}
+
+h1{
+  margin-top: 0;
+  font-family: sketchnote-square, sans-serif;
+  color: #da937e;
+  font-size: 2em;
+}
+
+h2{
+  font-family: sketchnote-square, sans-serif;
+  color: #da937e;
+}
+
+h3{
+  color: #f5c3a4;
+  font-family: sketchnote-text, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 45em) {
+  html{
+    max-width: 55em;
+    margin: auto;
+  }
+  header{
+    display: grid;
+    grid-template-columns: 8em auto;
+  }
+  h1 {
+    font-size: 4em;
+    padding-top: 0.25em;
+  }
+  nav {
+    grid-column: 1/3;
+  }
+}
