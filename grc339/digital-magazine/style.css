@@ -1,0 +1,80 @@
+/*CSS document*/
+header {
+  padding-bottom: 0.5em;
+}
+
+h1 {
+  margin-bottom: auto;
+}
+
+h2 {
+  font-family: swear-text, serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  font-style: normal;
+}
+
+nav ul {
+  padding: 0em;
+  margin-bottom: 2em;
+  /*display: grid;
+  grid-template-columns: repeat(6, 1fr)*/
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 1.75em;
+  margin-left: 1.75em;
+  text-align: center;
+  font-family: Bilo, sans-serif;
+  /* font-weight: 700;
+  font-style: normal; */
+  font-size: 1em;
+  text-align: center;
+}
+
+body {
+  font-family: Bilo, sans-serif;
+  color: #282126;
+}
+
+a {
+  color: #282126;
+  text-decoration: none;
+}
+
+figcaption {
+  color: #6B857C;
+}
+
+aside {
+  margin-top: 5em;
+  padding: 1.5em;
+  background-color: #dbcab1;
+}
+
+h3 {
+  font-family: swear-text, serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  font-style: normal;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
