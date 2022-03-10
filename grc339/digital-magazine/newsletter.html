@@ -1,0 +1,85 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" href="https://use.typekit.net/tgw7hnu.css">
+            <link rel="stylesheet" href="https://use.typekit.net/tgw7hnu.css">
+            <title>InTents</title> <!-- ★ Please include a proper title.-->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+
+        </head>
+
+        <body>
+            <div class="container">
+            <header>
+                    <h1> <a href="index.html"><img src="logo.png" alt="Logo of InTents."></a> </h1> <!-- ★ Please use a proper alt attribute.-->
+
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">packing</a></li>
+                            <li><a href="#">gear</a></li>
+                            <li><a href="#">cooking</a></li>
+                            <li><a href="newsletter.html">newsletter</a></li>
+                            <li><a href="photogallery.html">photos</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <main class="newsletter">
+                <form class="newsletter">
+                  <figure>
+                      <img src="the gang.jpg" alt="The team at Hetch Hetchy">
+                  </figure>
+                <section class="Subscribe">
+                    <h4>Subscribe</h4>
+                    <p>Sign up to receive free content, exclusive maps, guides, and community connections!</p>
+                    <ul>
+                        <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                        <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                        <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" /></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>What is your level of outdoor experience?</h4>
+                    <p>We will try to cater your content towards your specific experience level!</p>
+                    <ul>
+                        <li><input type="checkbox" id="Beginner" value="beginner" /> <label for="Beginner">Beginner</label></li>
+                        <li><input type="checkbox" id="Intermediate" value="intermediate" /> <label for="Intermediate">Intermediate</label></li>
+                        <li><input type="checkbox" id="Advanced" value="advanced" /> <label for="Advanced">Advanced</label></li>
+                        <li><input type="checkbox" id="Expert" value="Expert" /> <label for="expert">Expert</label></li>
+                    </ul>
+                 </section>
+
+                 <section class="inform">
+                    <h4>Where are you located?</h4>
+                    <p>We would love to send you suggestions that are tailored to your location!</p>
+                    <ul>
+                        <li><input type="checkbox" id="West Coast" value="West Coast" /> <label for="West Coast">West Coast</label></li>
+                        <li><input type="checkbox" id="East Coast" value="East Coast" /> <label for="East Coast">East Coast</label></li>
+                        <li><input type="checkbox" id="Mid-West" value="Mid-West" /> <label for="Mid-West">Mid-West</label></li>
+                        <li><input type="checkbox" id="North West" value="North West" /> <label for="North West">North West</label></li>
+                        <li><input type="checkbox" id="I'd like to receive all US content" value="I'd like to receive all US content" /> <label for="I'd like to receive all US content">I'd like to receive all US content</label></li>
+                    </ul>
+                </section>
+                <section class="notes">
+                    <label for="notes">Tell us a little more about yourself and how you heard about us!</label><textarea id="notes" name="notes"></textarea></section>
+                <section>
+                    <button type="Submit">Submit</button>
+                </section>
+
+            </form>
+          </main>
+
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+        </div>
+        </body>
+    </html>
