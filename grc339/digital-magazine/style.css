@@ -117,7 +117,7 @@ section.photogallery figure{
 section.photogallery main{
   position:relative;
   background: #ddd;
-  padding-bottom: calc(56% + 3em);
+  padding-bottom: calc(65% + 3em);
   overflow: hidden;
 }
 
